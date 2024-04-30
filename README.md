@@ -10,8 +10,9 @@
 ## Prerequisites
 
 * Basic econometrics
-* Basic programming in Python (see [this link](https://python-programming.quantecon.org/intro.html) for a thorough introduction)
-* Basic calculus and probability ([Mathematics for Machine learning](https://mml-book.github.io/) provides a good overview of skills participants are required to be fluent in).
+* Basic programming in Python (see [this link to QuantEcon](https://python-programming.quantecon.org/intro.html) for a thorough introduction)
+* A [Python refresher is provided under this link](python_refresher) 
+* Basic calculus and probability ([Mathematics for Machine learning](https://mml-book.github.io/) provides a good overview of skills participants are required to be fluent in). 
 
 
 ## Purpose of the lectures

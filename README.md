@@ -39,7 +39,7 @@ in the context of application in macroeconomics and climate-change economics.
 13:00 - 14:30 | Lunch Break 
 14:30 - 16:00 | Deep Equilibrium Nets (2 x 45 min)
 
-### [Day 2](lectures/day2), Thursday, May 23nd, 2024 (10:15-12:00 and 12:30-14:00)
+### [Day 2](lectures/day2), Thursday, May 23nd, 2024 
 
  **Time** | **Main Topics** 
 ------|------
@@ -49,7 +49,7 @@ in the context of application in macroeconomics and climate-change economics.
 13:00 - 14:30 | Lunch Break 
 14:30 - 16:00 | Uncertainty Quantification and Estimation for nonlinear models: Gaussian Process Regression and Surrogate models
 
-### [Day 3](lectures/day3), Friday, May 24th, 2024 (10:15-12:00 and 12:30-14:00)
+### [Day 3](lectures/day3), Friday, May 24th, 2024
 
  **Time** | **Main Topics** 
 ------|------

@@ -1,4 +1,16 @@
-# Deep Learning for Solving Dynamic Stochastic Models (May 22 – 24, 2024)
+# Deep Learning for Solving and Estimating Dynamic Stochastic Models (May 22 – 24, 2024)
+
+This is an mini-course on "Deep Learning for Solving and Estimating Dynamic Stochastic Models", held from Wednesday, May 22nd, 2024 2 - Friday, May 24th, 2024 at [Central-German Doctoral Program Economics, University of Leipzig](http://cgde.wifa.uni-leipzig.de/).
+
+
+## Purpose of the lectures
+
+* This is a mini-course intended to confront Ph.D. students in economics and related fields with recent tools developed in applied mathematics, machine learning, computational science, and the computational economics literature to solve and estimate (dynamic stochastic) economic models, and perform parametric uncertainty quantification.
+
+* The lectures will be centered around two types of machine learning methods, that is, Deep Neural Networks and Gaussian Processes. They will be showcased
+in the context of application in macroeconomics and climate-change economics.
+
+* The lectures will be interactive, in a workshop-like style, that is, a mix of theory and actively playing with code examples (delivered in Python and deployed on a cloud computing infrastructure).
 
 
 ## Class enrollment on the [Nuvolos Cloud](https://nuvolos.cloud/)
@@ -11,18 +23,8 @@
 
 * Basic econometrics
 * Basic programming in Python (see [this link to QuantEcon](https://python-programming.quantecon.org/intro.html) for a thorough introduction)
-* A [Python refresher is provided under this link](python_refresher) 
+* A brief Python refresher is provided [under this link](python_refresher) 
 * Basic calculus and probability ([Mathematics for Machine learning](https://mml-book.github.io/) provides a good overview of skills participants are required to be fluent in). 
-
-
-## Purpose of the lectures
-
-* This course is intended to confront Ph.D. students in economics, finance, and related fields with recent tools developed in applied mathematics, machine learning, computational science, and the computational economics literature to solve and estimate (dynamic stochastic) economic models, and perform parametric uncertainty quantification.
-
-* The lectures will be centered around two types of machine learning methods (Deep Neural Networks and Gaussian Processes), and will be showcased
-in the context of application in macroeconomics and climate-change economics.
-
-* The lectures will be interactive, in a workshop-like style, that is, a mix of theory and actively playing with code examples (delivered in Python and deployed on a cloud computing infrastructure).
 
 
 ## Topics
@@ -47,7 +49,7 @@ in the context of application in macroeconomics and climate-change economics.
 13:00 - 14:30 | Lunch Break 
 14:30 - 16:00 | Uncertainty Quantification and Estimation for nonlinear models: Gaussian Process Regression and Surrogate models
 
-### [Day 3](lectures/day3), Wednesday, May 24th, 2024 (10:15-12:00 and 12:30-14:00)
+### [Day 3](lectures/day3), Friday, May 24th, 2024 (10:15-12:00 and 12:30-14:00)
 
  **Time** | **Main Topics** 
 ------|------

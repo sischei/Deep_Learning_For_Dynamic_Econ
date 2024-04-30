@@ -25,7 +25,7 @@ in the context of application in macroeconomics and climate-change economics.
 * Basic programming in Python (see [this link to QuantEcon](https://python-programming.quantecon.org/intro.html) for a thorough introduction)
 * A brief Python refresher is provided [under this link](python_refresher) 
 * A brief Python on Jupyter Notebooks is provided [under this link](python_refresher/jupyter_intro.ipynb) 
-* Basic calculus and probability ([Mathematics for Machine learning](https://mml-book.github.io/) provides a good overview of skills participants are required to be fluent in). 
+* Basic calculus and probability (The book [Mathematics for Machine learning](https://mml-book.github.io/) provides a good overview of skills participants are required to be fluent in). 
 * An extensive course on Deep Learning can be found [here](https://d2l.ai/index.html)
 
 

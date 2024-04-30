@@ -1,6 +1,6 @@
 ## Basic Python Tutorials
 
-+ [Introduction to Jupyter Notebooks)](jupyter_intro.ipynb)
++ [Introduction to Jupyter Notebooks](jupyter_intro.ipynb)
 + [Python Basics Activity 1 (Python as a calculator)](python_basics_1_python_as_calculator.ipynb)
 + [Python Basics Activity 2 (Python variables and types)](python_basics_2_vars_and_types.ipynb)
 + [Python Basics Activity 3 (Basic tuples and lists)](python_basics_3_basic_tuples_and_lists.ipynb)

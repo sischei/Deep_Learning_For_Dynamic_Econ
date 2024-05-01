@@ -18,6 +18,16 @@ in the context of application in macroeconomics and climate-change economics.
 * All lecture materials (slides, codes, and further readings) will be distributed via the [Nuvolos Cloud](https://nuvolos.cloud/).
 * To enroll in this class, please click on this [enrollment key](https://app.nuvolos.cloud/enroll/class/McAR3wJ3fnM), and follow the steps.
 
+### Video to get started with Nuvolos 
+
+* First steps on Nuvolos: 
+
+<iframe src="https://player.vimeo.com/video/513310246" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+### Novolos Support
+
+- Nuvolos Support: <support@nuvolos.cloud>
+
 
 ## Prerequisites
 
@@ -69,10 +79,6 @@ using [Python](http://www.python.org), [scikit learn](https://scikit-learn.org/)
 a browser-based cloud infrastructure in which files, datasets, code, and applications work together,
 in order to directly implement and experiment with the introduced methods and algorithms.
 
+
 ### Lecturer
 - [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) (HEC, University of Lausanne)
-
-### Contacts
-
-- Simon Scheidegger: <simon.scheidegger@unil.ch>
-- Nuvolos Support: <support@nuvolos.cloud>

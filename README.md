@@ -40,11 +40,11 @@ in the context of application in macroeconomics and climate-change economics.
 
  **Time** | **Main Topics** 
 ------|------
-09:30 - 11:00 | Introduction to Machine Learning and Deep Learning for Dynamic Stochastic Economic Models (2 x 45 min)
+09:30 - 11:00 | Introduction to Machine Learning and Deep Learning (2 x 45 min)
 11:00 - 11:30 | Coffee Break
 11:30 - 13:00 | A hands-on session on Deep Learning and Tensorflow (2 x 45 min)
 13:00 - 14:30 | Lunch Break 
-14:30 - 16:00 | Deep Equilibrium Nets (2 x 45 min)
+14:30 - 16:00 | [Deep Equilibrium Nets](https://onlinelibrary.wiley.com/doi/epdf/10.1111/iere.12575) (2 x 45 min)
 
 ### [Day 2](lectures/day2), Thursday, May 23nd, 2024 
 
@@ -54,17 +54,17 @@ in the context of application in macroeconomics and climate-change economics.
 11:00 - 11:30 | Coffee Break
 11:30 - 13:00 | Hands-on: Deep Equilibrium Nets (II) – solving a stochastic dynamic model with nonlinearities (2 x 45 min)
 13:00 - 14:30 | Lunch Break 
-14:30 - 16:00 | Uncertainty Quantification and Estimation for nonlinear models: Gaussian Process Regression and Surrogate models
+14:30 - 16:00 | Uncertainty quantification and estimation for nonlinear models: Gaussian process regression and surrogate models
 
 ### [Day 3](lectures/day3), Friday, May 24th, 2024
 
  **Time** | **Main Topics** 
 ------|------
-09:30 - 11:00 | Introduction to (stochastic) Integrated Assessment Models (2 x 45 min)
+09:30 - 11:00 | Introduction to (stochastic) integrated assessment models (2 x 45 min)
 11:00 - 11:30 | Coffee Break
 11:30 - 13:00 | Solving the (non-stationary) DICE model with Deep Equilibrium Nets (2 x 45 min)
 13:00 - 14:30 | Lunch Break 
-14:30 - 16:00 | Deep Uncertainty Quantification for stochastic Integrated Assessment Models (2 x 45 min)
+14:30 - 16:00 | Deep Uncertainty Quantification for stochastic integrated assessment models (2 x 45 min)
 
 
 ### Teaching philosophy

@@ -16,7 +16,7 @@ in the context of application in macroeconomics and climate-change economics.
 ## Class enrollment on the [Nuvolos Cloud](https://nuvolos.cloud/)
 
 * All lecture materials (slides, codes, and further readings) will be distributed via the [Nuvolos Cloud](https://nuvolos.cloud/).
-* To enroll in this class, please click on this [enrollment key](https://app.nuvolos.cloud/enroll/class/McAR3wJ3fnM), and follow the steps.
+* To enroll in this class, please click on this [enrollment key](https://app.nuvolos.cloud/enroll/class/OW-jhN1vUjU), and follow the steps.
 
 
 ### Novolos Support

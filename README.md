@@ -18,11 +18,6 @@ in the context of application in macroeconomics and climate-change economics.
 * All lecture materials (slides, codes, and further readings) will be distributed via the [Nuvolos Cloud](https://nuvolos.cloud/).
 * To enroll in this class, please click on this [enrollment key](https://app.nuvolos.cloud/enroll/class/McAR3wJ3fnM), and follow the steps.
 
-### Video to get started with Nuvolos 
-
-* First steps on Nuvolos: 
-
-<iframe src="https://player.vimeo.com/video/513310246" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 ### Novolos Support
 
@@ -82,3 +77,12 @@ in order to directly implement and experiment with the introduced methods and al
 
 ### Lecturer
 - [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) (HEC, University of Lausanne)
+
+
+# Auxiliary materials 
+
+| Session #        |  Title     | Screencast  |
+|:-------------: |:-------------:| :-----:|
+|   1 	|First steps on Nuvolos | <iframe src="https://player.vimeo.com/video/513310246" width="640" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>|
+|   2 	| Git intro | <iframe src="https://player.vimeo.com/video/516690761" width="640" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>|
+|   3 	| Terminal intro | <iframe src="https://player.vimeo.com/video/516691661" width="640" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>|

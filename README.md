@@ -56,7 +56,7 @@ in the context of application in macroeconomics and climate-change economics.
 11:30 - 12:15 | Exercise: Solving a stochastic dynamic models by [example](lectures/day2/code/03_DEQN_Exercises_Blancs.ipynb)  (45 min)
 12:15 - 13:00 | [Intdoruction to the DEQN library](lectures/day2/code/DEQN_production_code): solving a stochastic dynamic OLG model (45 min)
 13:00 - 14:30 | Lunch Break 
-14:30 - 16:00 | Uncertainty quantification and estimation for nonlinear models: Gaussian process regression and surrogate models
+14:30 - 16:00 | Uncertainty quantification and estimation for nonlinear models: Gaussian process regression and surrogate models (2 x 45 min)
 
 ### [Day 3](lectures/day3), Friday, May 24th, 2024
 

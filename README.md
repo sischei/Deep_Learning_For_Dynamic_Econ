@@ -26,12 +26,12 @@ in the context of application in macroeconomics and climate-change economics.
 
 ## Prerequisites
 
-* Basic econometrics
-* Basic programming in Python (see [this link to QuantEcon](https://python-programming.quantecon.org/intro.html) for a thorough introduction)
-* A brief Python refresher is provided [under this link](python_refresher) 
+* Basic econometrics.
+* Basic programming in Python (see [this link to QuantEcon](https://python-programming.quantecon.org/intro.html) for a thorough introduction).
+* A brief Python refresher is provided [under this link](python_refresher).
 * A brief Python on Jupyter Notebooks is provided [under this link](python_refresher/jupyter_intro.ipynb) 
 * Basic calculus and probability (The book [Mathematics for Machine learning](https://mml-book.github.io/) provides a good overview of skills participants are required to be fluent in). 
-* An extensive course on Deep Learning can be found [here](https://d2l.ai/index.html)
+* An extensive course on Deep Learning can be found [here](https://d2l.ai/index.html).
 
 
 ## Topics
@@ -54,9 +54,9 @@ in the context of application in macroeconomics and climate-change economics.
 10:15 - 10:45 | Exercise: Solving a stochastic dynamic models by [example](lectures/day2/code/03_DEQN_Exercises_Blancs.ipynb)  (45 min)
 11:00 - 11:30 | Coffee Break
 11:30 - 12:15 | Exercise: Solving a stochastic dynamic models by [example](lectures/day2/code/03_DEQN_Exercises_Blancs.ipynb)  (45 min)
-12:15 - 13:00 | [Intdoruction to the DEQN library](lectures/day2/code/DEQN_production_code): solving a stochastic dynamic OLG model (45 min)
+12:15 - 13:00 | [Introduction to the DEQN library](lectures/day2/code/DEQN_production_code): solving a stochastic dynamic OLG model (45 min)
 13:00 - 14:30 | Lunch Break 
-14:30 - 16:00 | Uncertainty quantification and estimation for nonlinear models: Gaussian process regression and surrogate models (2 x 45 min)
+14:30 - 16:00 | Uncertainty quantification and estimation for nonlinear models: [Gaussian process regression](lectures/day2/readings/Machine_learning_dynamic_econ.pdf) and [surrogate models](lectures/day2/readings/Deep_Surrogates.pdf) (2 x 45 min)
 
 ### [Day 3](lectures/day3), Friday, May 24th, 2024
 

@@ -40,19 +40,21 @@ in the context of application in macroeconomics and climate-change economics.
 
  **Time** | **Main Topics** 
 ------|------
-09:30 - 11:00 | Introduction to Machine Learning and Deep Learning (2 x 45 min)
+09:30 - 11:00 | [Introduction to Machine Learning and Deep Learning](lectures/day1/slides/01_Intro_to_DeepLearning.pdf) (2 x 45 min)
 11:00 - 11:30 | Coffee Break
-11:30 - 13:00 | A hands-on session on Deep Learning and Tensorflow (2 x 45 min)
+11:30 - 13:00 | [A hands-on session on Deep Learning, Tensorflow, and Tensorboard](lectures/day1/code) (2 x 45 min)
 13:00 - 14:30 | Lunch Break 
-14:30 - 16:00 | [Deep Equilibrium Nets](https://onlinelibrary.wiley.com/doi/epdf/10.1111/iere.12575) (2 x 45 min)
+14:30 - 16:00 | [Introduction to Deep Equilibrium Nets (DEQN)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/iere.12575) (2 x 45 min)
 
 ### [Day 2](lectures/day2), Thursday, May 23nd, 2024 
 
  **Time** | **Main Topics** 
 ------|------
-09:30 - 11:00 | Hands-on: Deep Equilibrium Nets (I) – solving a simple dynamic model (2 x 45 min)
+09:30 - 10:15 | Hands-on: Solving a stochastic dynamic models by [example](lectures/day2/code/02_Brock_Mirman_Uncertainty_DEQN.ipynb)  (45 min)
+10:15 - 10:45 | Exercise: Solving a stochastic dynamic models by [example](lectures/day2/code/03_DEQN_Exercises_Blancs.ipynb)  (45 min)
 11:00 - 11:30 | Coffee Break
-11:30 - 13:00 | Hands-on: Deep Equilibrium Nets (II) – solving a stochastic dynamic model with nonlinearities (2 x 45 min)
+11:30 - 12:15 | Exercise: Solving a stochastic dynamic models by [example](lectures/day2/code/03_DEQN_Exercises_Blancs.ipynb)  (45 min)
+12:15 - 13:00 | [Intdoruction to the DEQN library](lectures/day2/code/DEQN_production_code): solving a stochastic dynamic OLG model (45 min)
 13:00 - 14:30 | Lunch Break 
 14:30 - 16:00 | Uncertainty quantification and estimation for nonlinear models: Gaussian process regression and surrogate models
 

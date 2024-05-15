@@ -1,6 +1,6 @@
 # Deep Learning for Solving Dynamic Stochastic Models (May 22 – 24, 2024)
 
-This is an mini-course on "Deep Learning for Solving Dynamic Stochastic Models", held from Wednesday, May 22nd, 2024 2 - Friday, May 24th, 2024 at [Central-German Doctoral Program Economics, University of Leipzig](http://cgde.wifa.uni-leipzig.de/).
+This is an mini-course on "Deep Learning for Solving Dynamic Stochastic Models", held from Wednesday, May 22nd, 2024 2 - Friday, May 24th, 2024 at [Central-German Doctoral Program Economics, University of Leipzig](http://cgde.wifa.uni-leipzig.de/deep-learning-for-solving-dynamic-stochastic-model/).
 
 
 ## Purpose of the lectures

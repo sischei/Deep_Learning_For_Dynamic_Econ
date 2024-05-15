@@ -31,7 +31,6 @@ in the context of application in macroeconomics and climate-change economics.
 * A brief Python refresher is provided [under this link](python_refresher).
 * A brief Python on Jupyter Notebooks is provided [under this link](python_refresher/jupyter_intro.ipynb) 
 * Basic calculus and probability (The book [Mathematics for Machine learning](https://mml-book.github.io/) provides a good overview of skills participants are required to be fluent in). 
-* An extensive course on Deep Learning can be found [here](https://d2l.ai/index.html).
 
 
 ## Topics
@@ -44,7 +43,7 @@ in the context of application in macroeconomics and climate-change economics.
 11:00 - 11:30 | Coffee Break
 11:30 - 13:00 | [A hands-on session on Deep Learning, Tensorflow, and Tensorboard](lectures/day1/code) (2 x 45 min)
 13:00 - 14:30 | Lunch Break 
-14:30 - 16:00 | [Introduction to Deep Equilibrium Nets (DEQN)](https://onlinelibrary.wiley.com/doi/epdf/10.1111/iere.12575) (2 x 45 min)
+14:30 - 16:00 | [Introduction to Deep Equilibrium Nets (DEQN)](lectures/day1/slides/02_DeepEquilibriumNets.pdf) (2 x 45 min)
 
 ### [Day 2](lectures/day2), Thursday, May 23nd, 2024 
 
@@ -66,13 +65,13 @@ in the context of application in macroeconomics and climate-change economics.
 11:00 - 11:30 | Coffee Break
 11:30 - 13:00 | Solving the (non-stationary) DICE model with Deep Equilibrium Nets (2 x 45 min)
 13:00 - 14:30 | Lunch Break 
-14:30 - 16:00 | Deep Uncertainty Quantification for stochastic integrated assessment models (2 x 45 min)
+14:30 - 16:00 | Deep Uncertainty Quantification for stochastic integrated assessment models, and wrap-up of course (2 x 45 min)
 
 
 ### Teaching philosophy
 Lectures will be interactive, in a workshop-like style,
 using [Python](http://www.python.org), [scikit learn](https://scikit-learn.org/), [Tensorflow](https://www.tensorflow.org/), and
-[TFP](https://www.tensorflow.org/probability) on [Nuvolos](http://nuvolos.cloud),
+[Tensorflow probability](https://www.tensorflow.org/probability) on [Nuvolos](http://nuvolos.cloud),
 a browser-based cloud infrastructure in which files, datasets, code, and applications work together,
 in order to directly implement and experiment with the introduced methods and algorithms.
 

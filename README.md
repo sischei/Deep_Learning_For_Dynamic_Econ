@@ -61,7 +61,7 @@ in the context of application in macroeconomics and climate-change economics.
 
  **Time** | **Main Topics** 
 ------|------
-09:30 - 10:15 | Surrogate models part (II)
+09:30 - 10:15 | Surrogate models part II (45 min)
 10:15 - 11:00 | Introduction to (stochastic) integrated assessment models (45 min)
 11:00 - 11:30 | Coffee Break
 11:30 - 13:00 | Solving the (non-stationary) DICE model with Deep Equilibrium Nets (2 x 45 min)

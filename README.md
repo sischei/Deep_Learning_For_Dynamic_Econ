@@ -1,16 +1,15 @@
-# Deep Learning for Solving and Estimating Dynamic Stochastic Models (May 22 – 24, 2024)
+# Deep Learning for Solving Dynamic Stochastic Models (May 22 – 24, 2024)
 
-This is an mini-course on "Deep Learning for Solving and Estimating Dynamic Stochastic Models", held from Wednesday, May 22nd, 2024 2 - Friday, May 24th, 2024 at [Central-German Doctoral Program Economics, University of Leipzig](http://cgde.wifa.uni-leipzig.de/).
+This is an mini-course on "Deep Learning for Solving Dynamic Stochastic Models", held from Wednesday, May 22nd, 2024 2 - Friday, May 24th, 2024 at [Central-German Doctoral Program Economics, University of Leipzig](http://cgde.wifa.uni-leipzig.de/).
 
 
 ## Purpose of the lectures
 
-* This is a mini-course intended to confront Ph.D. students in economics and related fields with recent tools developed in applied mathematics, machine learning, computational science, and the computational economics literature to solve and estimate (dynamic stochastic) economic models, and perform parametric uncertainty quantification.
+* This mini-course is designed for Ph.D. students in economics and related disciplines. It introduces recent advancements in applied mathematics, machine learning, computational science, and the computational economics literature. The course focuses on solving and estimating dynamic stochastic economic models and performing parametric uncertainty quantification.
 
-* The lectures will be centered around two types of machine learning methods, that is, Deep Neural Networks and Gaussian Processes. They will be showcased
-in the context of application in macroeconomics and climate-change economics.
+* The lectures will concentrate on two machine learning methodologies: Deep Neural Networks and Gaussian Processes. These methods will be explored through applications in macroeconomics and climate-change economics.
 
-* The lectures will be interactive, in a workshop-like style, that is, a mix of theory and actively playing with code examples (delivered in Python and deployed on a cloud computing infrastructure).
+* The format of the lectures will be interactive and workshop-like, combining theoretical discussions with hands-on coding exercises. The coding will be conducted in Python and implemented on a cloud computing infrastructure.
 
 
 ## Class enrollment on the [Nuvolos Cloud](https://nuvolos.cloud/)
@@ -66,7 +65,7 @@ in the context of application in macroeconomics and climate-change economics.
 11:00 - 11:30 | Coffee Break
 11:30 - 13:00 | Solving the (non-stationary) DICE model with Deep Equilibrium Nets (2 x 45 min)
 13:00 - 14:30 | Lunch Break 
-14:30 - 16:00 | Deep Uncertainty Quantification for stochastic integrated assessment models, and wrap-up of course (2 x 45 min)
+14:30 - 16:00 | Putting things together: [Deep Uncertainty Quantification for stochastic integrated assessment models]; wrap-up of course (2 x 45 min)
 
 
 ### Teaching philosophy

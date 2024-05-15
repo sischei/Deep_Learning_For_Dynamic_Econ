@@ -54,13 +54,13 @@ This is an mini-course on "Deep Learning for Solving Dynamic Stochastic Models",
 11:30 - 12:15 | Exercise: Solving a stochastic dynamic models by [example](lectures/day2/code/03_DEQN_Exercises_Blancs.ipynb)  (45 min)
 12:15 - 13:00 | [Introduction to the DEQN library](lectures/day2/code/DEQN_production_code): [solving a stochastic dynamic OLG model with an analytical solution](lectures/day2/slides/OLG_with_analytical_solution.pdf) (45 min)
 13:00 - 14:30 | Lunch Break 
-14:30 - 16:00 | Surrogate models part I (for structural estimation and uncertainty quantification via [Gaussian process regression](lectures/day2/readings/Machine_learning_dynamic_econ.pdf) and [deep surrogate models](lectures/day2/readings/Deep_Surrogates.pdf)) (2 x 45 min)
+14:30 - 16:00 | [Surrogate models part I](lectures/day2/slides/01_Surrogate_models.pdf) (for structural estimation and uncertainty quantification via [Gaussian process regression](lectures/day2/readings/Machine_learning_dynamic_econ.pdf) and [deep surrogate models](lectures/day2/readings/Deep_Surrogates.pdf)) (2 x 45 min)
 
 ### [Day 3](lectures/day3), Friday, May 24th, 2024
 
  **Time** | **Main Topics** 
 ------|------
-09:30 - 10:15 | Surrogate models part II (45 min)
+09:30 - 10:15 | [Surrogate models part II](lectures/day2/slides/01_Surrogate_models.pdf)
 10:15 - 11:00 | Introduction to (stochastic) integrated assessment models (45 min)
 11:00 - 11:30 | Coffee Break
 11:30 - 13:00 | Solving the (non-stationary) DICE model with Deep Equilibrium Nets (2 x 45 min)

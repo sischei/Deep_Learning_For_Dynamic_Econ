@@ -60,12 +60,12 @@ This is an mini-course on "Deep Learning for Solving Dynamic Stochastic Models",
 
  **Time** | **Main Topics** 
 ------|------
-09:30 - 10:15 | [Surrogate models part II](lectures/day2/slides/01_Surrogate_models.pdf)
-10:15 - 11:00 | Introduction to integrated assessment models (45 min)
-11:00 - 11:30 | Coffee Break
-11:30 - 13:00 | Solving the (non-stationary) DICE model with Deep Equilibrium Nets (2 x 45 min)
-13:00 - 14:30 | Lunch Break 
-14:30 - 16:00 | Putting things together: [Deep Uncertainty Quantification for stochastic integrated assessment models]; wrap-up of course (2 x 45 min)
+09:00 - 09:45 | [Surrogate models part II](lectures/day2/slides/01_Surrogate_models.pdf)
+09:45 - 10:30 | Introduction to integrated assessment models (45 min)
+10:30 - 11:00 | Coffee Break
+11:00 - 12:30 | Solving the (non-stationary) DICE model with Deep Equilibrium Nets (2 x 45 min)
+12:30 - 14:00 | Lunch Break 
+14:00 - 15:30 | Putting things together: [Deep Uncertainty Quantification for stochastic integrated assessment models]; wrap-up of course (2 x 45 min)
 
 
 ### Teaching philosophy

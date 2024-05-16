@@ -1,0 +1,179 @@
+constants:
+  constants:
+    Tstep: 1
+    L0: 7403
+    Linfty: 11500
+    deltaL: 0.0268
+    A0hat: 0.010295
+    gA0hat: 0.0217
+    deltaA: 0.005
+    sigma0: 9.55592e-05
+    deltaSigma: 0.001
+    gSigma0: -0.0152
+    theta2: 2.6
+    pback: 0.55
+    gback: 0.005
+    c2co2: 3.666
+    ELand0: 0.00070922
+    deltaLand: 0.023
+    fex0: 0.5
+    fex1: 1.0
+    Tyears: 85.0
+    vartheta: 0.015
+    rho: 0.004
+    psi: 0.5
+    alpha: 0.3
+    delta: 0.1
+    pi1: 0
+    pi2: 0.00236
+    pow1: 1
+    pow2: 2
+    b12_: 0.054
+    b23_: 0.0082
+    MATeq: 0.607
+    MUOeq: 0.489
+    MLOeq: 1.281
+    c1_: 0.137
+    c3_: 0.73
+    c4_: 0.00689
+    f2xco2: 3.45
+    t2xco2: 3.25
+    MATbase: 0.607
+    k0: 2.926
+    MAT0: 0.851
+    MUO0: 0.628
+    MLO0: 1.323
+    TAT0: 1.1
+    TOC0: 0.27
+    tau0: 0.0
+net:
+  layers:
+  - hidden:
+      units: 1024
+      type: dense
+      activation: relu
+      init_scale: 1.0
+  - hidden:
+      units: 1024
+      type: dense
+      activation: relu
+      init_scale: 1.0
+  - output:
+      type: dense
+      activation: linear
+      init_scale: 1.0
+  net_initializer_mode: fan_avg
+  net_initializer_distribution: uniform
+optimizer:
+  optimizer: Adam
+  learning_rate: 1.0e-05
+  clipvalue: 1.0
+run:
+  N_sim_batch: 200
+  N_episode_length: 500
+  N_epochs_per_episode: 1
+  N_minibatch_size: 128
+  N_episodes: 10000
+  keras_precision: float32
+variables:
+  states:
+  - name: kx
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 2.926
+        stddev: 0.0
+  - name: MATx
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 0.851
+        stddev: 0.0
+  - name: MUOx
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 0.628
+        stddev: 0.0
+  - name: MLOx
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 1.323
+        stddev: 0.0
+  - name: TATx
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 1.1
+        stddev: 0.0
+  - name: TOCx
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 0.27
+        stddev: 0.0
+  - name: taux
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 0.0
+        stddev: 0.0
+  policies:
+  - name: kplusy
+    activation: tf.keras.activations.softplus
+  - name: lambd_haty
+    activation: tf.keras.activations.softplus
+  - name: nuAT_haty
+    activation: tf.keras.activations.softplus
+  - name: nuUO_haty
+    activation: tf.keras.activations.linear
+  - name: nuLO_haty
+    activation: tf.keras.activations.linear
+  - name: etaAT_haty
+    activation: tf.keras.activations.linear
+  - name: etaOC_haty
+    activation: tf.keras.activations.linear
+  definitions:
+  - name: tau2t
+  - name: tau2tauplus
+  - name: tfp
+  - name: gr_tfp
+  - name: lab
+  - name: gr_lab
+  - name: sigma
+  - name: theta1
+  - name: Eland
+  - name: Fex
+  - name: beta_hat
+  - name: b32
+  - name: b21
+  - name: b12
+  - name: b23
+  - name: c1c3
+  - name: c1
+  - name: c1f
+  - name: c4
+  - name: con
+  - name: Omega
+  - name: Omega_prime
+  - name: ygross
+  - name: ynet
+  - name: inv
+  - name: Eind
+  - name: scc
+  - name: Dam
+  - name: Emissions
+  - name: MATplus
+  - name: MUOplus
+  - name: MLOplus
+  - name: TATplus
+  - name: TOCplus
+seed: 42
+STARTING_POINT: LATEST
+CHECKPOINT_INTERVAL: 1
+MAX_TO_KEEP_NUMBER: 1
+MODEL_NAME: gdice_baseline
+initialize_each_episode: true
+error_filename: error_file.txt
+enable_check_numerics: false

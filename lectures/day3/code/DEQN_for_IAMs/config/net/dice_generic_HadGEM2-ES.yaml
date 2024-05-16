@@ -1,0 +1,28 @@
+layers:
+  - hidden:
+     units: 1024
+     type: dense
+     activation: relu
+     init_scale: 1.
+  - hidden:
+     units: 1024
+     type: dense
+     activation: relu
+     init_scale: 1.
+  - output:
+     type: dense
+     activation: linear
+     init_scale: 1.
+
+# --------------------------------------------------------------------------- #
+# Mimic the Glorot uniform initializer using the VarianceScaling initializer
+# --------------------------------------------------------------------------- #
+# The Glorot normal initializer draws samples from a uniform distribution
+# within [-limit, limit] where limit is sqrt(6 / (fan_in + fan_out)).
+# The VarianceScaling method draws samples from a uniform distiruvtion within
+# [-limit, limit], with limit = sqrt(3 * scale / n).
+# When we set n as 'fan_avg' (fan_avg = (fan_in + fan_out) / 2) and scale=1,
+# then the VarianceScaling method replicates the Glorot uniform initializer.
+
+net_initializer_mode: fan_avg
+net_initializer_distribution: uniform

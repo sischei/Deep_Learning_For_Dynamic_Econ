@@ -1,0 +1,142 @@
+# --------------------------------------------------------------------------- #
+# State variables
+# --------------------------------------------------------------------------- #
+states:
+  # ------------------------------------------------------------------------- #
+  # Economic state
+  # ------------------------------------------------------------------------- #
+  - name: kx  # Capital stock in period t in effective labor units
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 2.926
+        stddev: 0.0
+
+  # ------------------------------------------------------------------------- #
+  # Climate states
+  # ------------------------------------------------------------------------- #
+  # Carbon mass
+  - name: MATx
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 0.851
+        stddev: 0.0
+  - name: MUOx
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 0.628
+        stddev: 0.0
+  - name: MLOx
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 1.323
+        stddev: 0.
+
+  # Temperature
+  - name: TATx
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 1.1
+        stddev: 0.
+  - name: TOCx
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 0.27
+        stddev: 0.
+
+  # ------------------------------------------------------------------------- #
+  # Auxiliary state
+  # ------------------------------------------------------------------------- #
+  - name: taux  # Computational time
+    init:
+      distribution: truncated_normal
+      kwargs:
+        mean: 0.
+        stddev: 0.
+
+
+# --------------------------------------------------------------------------- #
+# Policy variables
+# --------------------------------------------------------------------------- #
+policies:
+  - name: kplusy  # Capital stock tomorrow
+    activation: tf.keras.activations.softplus
+  - name: lambd_haty
+    activation: tf.keras.activations.softplus
+  - name: muy  # Mitigation policy \in [0, 1]
+    activation: tf.keras.activations.softplus
+    bounds:
+        upper: 1.0
+        penalty_upper: 1e-2
+
+  # Lagrange multipliers
+  - name: nuAT_haty  # Known to be negative, thus need to put '-' in front of
+    activation: tf.keras.activations.softplus
+  - name: nuUO_haty
+    activation: tf.keras.activations.linear
+  - name: nuLO_haty
+    activation: tf.keras.activations.linear
+  - name: etaAT_haty
+    activation: tf.keras.activations.linear
+  - name: etaOC_haty
+    activation: tf.keras.activations.linear
+
+definitions:
+  # ------------------------------------------------------------------------- #
+  # Real and computational time
+  # ------------------------------------------------------------------------- #
+  - name: tau2t  # Scale back from tau to t
+  - name: tau2tauplus  # Update tau to tau+1
+
+  # ------------------------------------------------------------------------- #
+  # Exogenous parameters
+  # ------------------------------------------------------------------------- #
+  - name: tfp  # TFP
+  - name: gr_tfp  # Growth rate of TFP
+  - name: lab  # Labor
+  - name: gr_lab  # Annual growth rate of labor
+  - name: sigma  # Carbon intensity
+  - name: theta1  # Cost coefficient of carbon mitigation
+  - name: Eland  # Natural carbon emissions
+  - name: Fex  # External radiative forcing
+  - name: beta_hat  # Effective discout factor
+  - name: b32 # Mass of carbon transmission
+  - name: b21 # Mas of carbon transmission
+  - name: b12 # Mass of carbon transmission
+  - name: b23 # Mas of carbon transmission
+  - name: c1c3 #Temeprature coefficient
+  - name: c1 #Temeprature coefficient
+  - name: c1f #Temeprature coefficient
+  - name: c4 #Temeprature coefficient
+
+  # ------------------------------------------------------------------------- #
+  # Economic variables
+  # ------------------------------------------------------------------------- #
+  - name: con  # Consumption policy
+  - name: Omega  # Damage function
+  - name: Omega_prime  # The first derivative of the damage function
+  - name: Theta  # Mitigation cost function
+  - name: Theta_prime  # The first derivative of the mitigation cost function
+  - name: ygross  # Gross production
+  - name: ynet  # Net production where the climate damage is considered
+  - name: inv  # Investment
+  - name: Eind  # Industrial emission
+  - name: scc  # Social cost of carbon
+  - name: carbontax  # Social cost of carbon
+  - name: Abatement #Abatement
+  - name: Dam #Damages
+  - name: Emissions #Emissions
+
+  # ------------------------------------------------------------------------- #
+  # State variables in period t+1
+  # ------------------------------------------------------------------------- #
+  - name: MATplus  # Mass of carbon in the atmosphere in period t+1
+  - name: MUOplus  # Mass of carbon in the upper ocean in period t+1
+  - name: MLOplus  # Mass of carbon in the lower ocean in period t+1
+  - name: TATplus  # Temperature in the atmosphere in period t+1
+  - name: TOCplus  # Temperature in the ocean in period t+1

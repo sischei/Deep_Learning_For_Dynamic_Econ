@@ -1,0 +1,69 @@
+constants:
+########## DICE VERSION SPECIFIC PARAMETERS ########################
+    Tstep: 1 # Years in one time step
+########## EXOGENOUS PROCESSES ###################################
+  # Population
+    L0: 7403  # World population in 2015 [millions]
+    Linfty: 11500  # Asymptotic world population [millions]
+    deltaL: 0.0268  # Rate of convergence to asymptotic world population
+  # Total factor productivity in effective labor units
+    A0hat: 0.010295  # Initial level of TFP
+    gA0hat: 0.0217  # Initial growth rate of TFP
+    deltaA: 0.005  # Rate of decline in growth of the productivity
+  # Carbon intensity
+    sigma0: 0.0000955592  # Initial carbon instensity
+    deltaSigma: 0.001 # decline rate of decarbonization per year
+    gSigma0: -0.0152 #initial growth of carbon intensity per year
+  # Mitigation
+    theta2: 2.6 # Mitigation cost parameter
+    pback: 0.55 # Cost of backstop 2010 thousand USD per tCo2 2015
+    gback: 0.005 # initial cost decline backstop cost per year
+    c2co2: 3.666 #transformation from c to co2
+  # Land emissions
+    ELand0: 0.00070922 # emissions form land in 2005 (1000GtC per year)
+    deltaLand: 0.023 # decline rate of land amissions (per year)
+  # Land emissions
+    fex0: 0.5 # 2000 forcing of nonCO2 GHG (Wm-2)
+    fex1: 1.0 #  2100 forcing of nonCO2 GHG (Wm-2)
+    Tyears: 85. # Number of years before 2100
+########## ECONOMIC PARAMETERS ###################################
+  # Numeric parameters
+    vartheta: 0.015  # Purely numeric parameter to transform time periods
+  # Utility function
+    rho: 0.015  # Discount factor in continuous time
+    psi: 0.68965517  # CRRA: intertemporal elasticity of substitution
+  # Production function
+    alpha: 0.3  # Capital elasticity
+    delta: 0.1  # Annual capital depreciation rate
+  # Damage function
+    pi1: 0 # Climate damage factor coefficient
+    pi2: 0.00236  # Climate damage factor coefficient
+    pow1: 1  # Power value in damages function
+    pow2: 2  # Power value in damages function
+
+#----------------mmm Carbon mass---------------------------------
+    b12_: 0.054   # Rate of carbon diffusion from atmosphere to upper ocean
+    b23_: 0.0082   # Rate of carbon diffusion from upper ocean to lower ocean
+    MATeq: 0.607 # Equilibrium mass of carbon in the Atmosphere
+    MUOeq: 0.489 # Equilibrium mass of carbon in the upper Ocean
+    MLOeq: 1.281 #Equilibrium mass of carbon in the lower ocean
+  # Temperature
+
+#-------------------mmm temparature----------------------
+    c1_: 0.137    #Temperature coefficient
+    c3_: 0.73 #Temperature coefficient
+    c4_: 0.00689 #Temperature coefficient
+
+  # Radiative forcing and preindustrial atmospheric carbon mass
+    MATbase: 0.607  # Preindustrial atmospheric carbon concentration
+    f2xco2: 3.45 #forcings of equilibrium co2 doubling
+    t2xco2: 3.25 # equilibrium climate sensitivity
+
+  # Initial state
+    k0: 2.926  # K0/(A0L0)
+    MAT0: 0.851  # [1000 GtC] 2015
+    MUO0: 0.628  # [1000 GtC] 2015
+    MLO0: 1.323 # [1000 GtC] 2015
+    TAT0: 1.1  # [oC relative to the preindustrial]
+    TOC0: 0.27 # [oC relative to the preindustrial]
+    tau0: 0.  # Initial time period

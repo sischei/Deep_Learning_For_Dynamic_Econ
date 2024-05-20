@@ -52,7 +52,7 @@ This is an mini-course on "Deep Learning for Solving Dynamic Stochastic Models",
 10:15 - 10:45 | Exercise: Solving a stochastic dynamic models by [example](lectures/day2/code/03_DEQN_Exercises_Blancs.ipynb)  (45 min)
 11:00 - 11:30 | Coffee Break
 11:30 - 12:15 | Exercise: Solving a stochastic dynamic models by [example](lectures/day2/code/03_DEQN_Exercises_Blancs.ipynb)  (45 min)
-12:15 - 13:00 | [Introduction to the DEQN library](lectures/day2/code/DEQN_production_code): [solving a stochastic dynamic OLG model with an analytical solution](lectures/day2/slides/OLG_with_analytical_solution.pdf) (45 min)
+12:15 - 13:00 | [Introduction to the DEQN library](lectures/day2/code/DEQN_production_code): [solving a stochastic dynamic OLG model with an analytical solution](lectures/day2/slides/02_OLG_with_analytical_solution_model.pdf) (45 min)
 13:00 - 14:30 | Lunch Break 
 14:30 - 16:00 | [Surrogate models part I](lectures/day2/slides/01_Surrogate_models.pdf) (for structural estimation and uncertainty quantification via [Gaussian process regression](lectures/day2/readings/Machine_learning_dynamic_econ.pdf) and [deep surrogate models](lectures/day2/readings/Deep_Surrogates.pdf)) (2 x 45 min)
 
@@ -63,9 +63,9 @@ This is an mini-course on "Deep Learning for Solving Dynamic Stochastic Models",
 09:00 - 09:45 | [Surrogate models part II](lectures/day2/slides/01_Surrogate_models.pdf)
 09:45 - 10:30 | [Introduction to the macroeconomics of climate change, and integrated assessment models](lectures/day3/slides/01_Intro_IAM.pdf) (45 min)
 10:30 - 11:00 | Coffee Break
-11:00 - 12:30 | Solving the (non-stationary) DICE model with [Deep Equilibrium Nets](lectures/day3/code/DEQN_for_IAMs) (2 x 45 min)
+11:00 - 12:30 | [Solving the (non-stationary) DICE model](lectures/day3/slides/02_b_CDICE_implementation.pdf) with [Deep Equilibrium Nets](lectures/day3/code/DEQN_for_IAMs) (2 x 45 min)
 12:30 - 14:00 | Lunch Break 
-14:00 - 15:30 | Putting things together: [Deep Uncertainty Quantification for stochastic integrated assessment models]; wrap-up of course (2 x 45 min)
+14:00 - 15:30 | Putting things together: [Deep Uncertainty Quantification for stochastic integrated assessment models](lectures/day3/slides/03_Deep_UQ_IAM.pdf); wrap-up of course (2 x 45 min)
 
 
 ### Teaching philosophy

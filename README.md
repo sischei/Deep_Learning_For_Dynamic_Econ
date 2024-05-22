@@ -49,10 +49,10 @@ This is an mini-course on "Deep Learning for Solving Dynamic Stochastic Models",
  **Time** | **Main Topics** 
 ------|------
 09:30 - 10:15 | [Introduction to Deep Equilibrium Nets (DEQN)](lectures/day1/slides/02_DeepEquilibriumNets.pdf) (2 x 45 min)
-10:15 - 11:00 | Hands-on: Solving a dynamic models with [DEQNs](lectures/day2/code/01_Brook_Mirman_1972_DEQN.ipynb) (45 min)
+10:15 - 11:00 | Hands-on: Solving a dynamic model with [DEQNs](lectures/day2/code/01_Brook_Mirman_1972_DEQN.ipynb) (45 min)
 11:00 - 11:30 | Coffee Break
-11:30 - 12:15 | Hands-on: Solving a stochastic dynamic models with [DEQNs](lectures/day2/code/02_Brock_Mirman_Uncertainty_DEQN.ipynb) (45 min)
-12:15 - 13:00 | Exercise: Solving a stochastic dynamic models by [example](lectures/day2/code/03_DEQN_Exercises_Blancs.ipynb) (45 min)
+11:30 - 12:15 | Hands-on: Solving a dynamic stochastic model with [DEQNs](lectures/day2/code/02_Brock_Mirman_Uncertainty_DEQN.ipynb) (45 min)
+12:15 - 13:00 | Exercise: Solving a dynamic stochastic model by [example](lectures/day2/code/03_DEQN_Exercises_Blancs.ipynb) (45 min)
 13:00 - 14:30 | Lunch Break 
 14:30 - 15:15 | [Introduction to a tuned DEQN library](lectures/day2/code/DEQN_production_code): [solving a stochastic dynamic OLG model with an analytical solution](lectures/day2/slides/02_OLG_with_analytical_solution_model.pdf) (45 min)
 15:15 - 16:00 | [Surrogate models part I:](lectures/day2/slides/03_Surrogate_models.pdf) (for structural estimation and uncertainty quantification via [deep surrogate models](lectures/day2/readings/Deep_Surrogates.pdf)), with an example [DSGE model solved with DEQN and pseudo-states](lectures/day2/code/DEQN_production_code/stochastic_growth_pseudostates) (45 min)

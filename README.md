@@ -65,7 +65,7 @@ This is an mini-course on "Deep Learning for Solving Dynamic Stochastic Models",
 10:00 - 10:30 | [Creating GP-based surrogates from DSGE models](lectures/day3/code/DEQN_production_code) (30 min)
 10:30 - 11:00 | Coffee Break
 11:30 - 12:15 | [Introduction to the macroeconomics of climate change, and integrated assessment models](lectures/day3/slides/01_Intro_IAM.pdf) (45 min)
-12:15 - 13:00 | [Solving the (non-stationary) DICE model](lectures/day3/slides/02_b_CDICE_implementation.pdf) with [Deep Equilibrium Nets](lectures/day3/code/DEQN_for_IAMs) (2 x 45 min)
+12:15 - 13:00 | [Solving the (non-stationary) DICE model](lectures/day3/slides/02_b_CDICE_implementation.pdf) with [Deep Equilibrium Nets](lectures/day3/code/DEQN_for_IAMs) (45 min)
 12:30 - 14:00 | Lunch Break 
 14:00 - 15:30 | Putting things together: [Deep Uncertainty Quantification for stochastic integrated assessment models](lectures/day3/slides/03_Deep_UQ_IAM.pdf); wrap-up of course (2 x 45 min)
 

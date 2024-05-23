@@ -61,7 +61,8 @@ This is an mini-course on "Deep Learning for Solving Dynamic Stochastic Models",
 
  **Time** | **Main Topics** 
 ------|------
-09:00 - 10:30 | [Surrogate models part II:](lectures/day2/slides/03_Surrogate_models.pdf) (for structural estimation and uncertainty quantification via [Gaussian process regression](lectures/day2/readings/Machine_learning_dynamic_econ.pdf) (2 x 45 min)
+09:00 - 10:00 | [Surrogate models part II:](lectures/day2/slides/03_Surrogate_models.pdf) (for structural estimation and uncertainty quantification via [Gaussian process regression](lectures/day2/readings/Machine_learning_dynamic_econ.pdf) (60 min)
+10:00 - 10:30 | [Creating GP-based surrogates from DSGE models](lectures/day3/code/DEQN_production_code) (30 min)
 10:30 - 11:00 | Coffee Break
 11:30 - 12:15 | [Introduction to the macroeconomics of climate change, and integrated assessment models](lectures/day3/slides/01_Intro_IAM.pdf) (45 min)
 12:15 - 13:00 | [Solving the (non-stationary) DICE model](lectures/day3/slides/02_b_CDICE_implementation.pdf) with [Deep Equilibrium Nets](lectures/day3/code/DEQN_for_IAMs) (2 x 45 min)

@@ -1,0 +1,20 @@
+hydra: 
+  run:
+    dir: runs/${MODEL_NAME}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+defaults:
+  - constants: ABC
+  - net: ABC
+  - optimizer: ABC
+  - run: ABC
+  - variables: ABC
+seed: 151082
+# can be NEW, LATEST, or a given checkpoint filename
+STARTING_POINT: NEW
+CHECKPOINT_INTERVAL: 10
+MAX_TO_KEEP_NUMBER: 20
+MODEL_NAME: ABC_pseudostate
+#False-> Simulation; True -> draw 
+initialize_each_episode: False
+error_filename: error_file.txt
+enable_check_numerics: False
+loss_choice: mse #huber 

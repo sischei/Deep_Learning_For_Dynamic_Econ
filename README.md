@@ -82,6 +82,43 @@ in order to directly implement and experiment with the introduced methods and al
 - [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) (HEC, University of Lausanne)
 
 
+## Citation
+
+Please cite ``Deep Equilibrium Nets'' and ``The Climate in Climate Economics'' in your publications if this repository helps your research:
+
+```
+@article{https://doi.org/10.1111/iere.12575,
+author = {Azinovic, Marlon and Gaegauf, Luca and Scheidegger, Simon},
+title = {DEEP EQUILIBRIUM NETS},
+journal = {International Economic Review},
+volume = {n/a},
+number = {n/a},
+pages = {},
+year={2022}
+doi = {https://doi.org/10.1111/iere.12575},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/iere.12575},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/iere.12575}
+}
+```
+
+```
+@article{10.1093/restud/rdae011,
+    author = {Folini, Doris and Friedl, Aleksandra and Kübler, Felix and Scheidegger, Simon},
+    title = "{The Climate in Climate Economics*}",
+    journal = {The Review of Economic Studies},
+    pages = {rdae011},
+    year = {2024},
+    month = {01},
+    issn = {0034-6527},
+    doi = {10.1093/restud/rdae011},
+    url = {https://doi.org/10.1093/restud/rdae011},
+    eprint = {https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdae011/56663801/rdae011.pdf},
+}
+```
+
+
+
+
 # Auxiliary materials 
 
 | Session #        |  Title     | Screencast  |

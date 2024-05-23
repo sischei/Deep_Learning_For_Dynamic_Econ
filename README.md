@@ -84,7 +84,7 @@ in order to directly implement and experiment with the introduced methods and al
 
 ## Citation
 
-Please cite ``Deep Equilibrium Nets'' and ``The Climate in Climate Economics'' in your publications if this repository helps your research:
+Please cite "Deep Equilibrium Nets" and "The Climate in Climate Economics" in your publications if this repository helps your research:
 
 ```
 @article{https://doi.org/10.1111/iere.12575,

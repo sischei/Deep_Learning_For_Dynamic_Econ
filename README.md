@@ -91,13 +91,13 @@ Please cite [Deep Equilibrium Nets](https://onlinelibrary.wiley.com/doi/epdf/10.
 author = {Azinovic, Marlon and Gaegauf, Luca and Scheidegger, Simon},
 title = {DEEP EQUILIBRIUM NETS},
 journal = {International Economic Review},
-volume = {n/a},
-number = {n/a},
-pages = {},
-year={2022}
+volume = {63},
+number = {4},
+pages = {1471-1525},
 doi = {https://doi.org/10.1111/iere.12575},
 url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/iere.12575},
-eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/iere.12575}
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/iere.12575},
+year = {2022}
 }
 ```
 

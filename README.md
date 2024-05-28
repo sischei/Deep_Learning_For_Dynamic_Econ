@@ -116,7 +116,14 @@ year = {2022}
 }
 ```
 
-
+```
+@article{chen2023deep,
+  title={Deep surrogates for finance: With an application to option pricing},
+  author={Chen, Hui and Didisheim, Antoine and Scheidegger, Simon},
+  journal={Available at SSRN 3782722},
+  year={2023}
+}
+```
 
 
 # Auxiliary materials 

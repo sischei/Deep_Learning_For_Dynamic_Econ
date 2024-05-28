@@ -84,7 +84,7 @@ in order to directly implement and experiment with the introduced methods and al
 
 ## Citation
 
-Please cite [Deep Equilibrium Nets](https://onlinelibrary.wiley.com/doi/epdf/10.1111/iere.12575) and [The Climate in Climate Economics](https://academic.oup.com/restud/advance-article-abstract/doi/10.1093/restud/rdae011/7593489?redirectedFrom=fulltext&login=false) in your publications if this repository helps your research:
+Please cite [Deep Equilibrium Nets](https://onlinelibrary.wiley.com/doi/epdf/10.1111/iere.12575), [The Climate in Climate Economics](https://academic.oup.com/restud/advance-article-abstract/doi/10.1093/restud/rdae011/7593489?redirectedFrom=fulltext&login=false), and [Deep surrogates for finance: With an application to option pricing](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3782722) in your publications if this repository helps your research:
 
 ```
 @article{https://doi.org/10.1111/iere.12575,
